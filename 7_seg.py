@@ -187,7 +187,6 @@ def bitlist(n: int):
     return [int(c) for c in f'{n:04b}']
 
 
-# print(list(zip(*table2)))
 segment_table = list(zip(*table2))
 
 h, k, m, p = symbols("h k m p")
